@@ -1,0 +1,49 @@
+.nav-link{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.akh{
+    align-items: center;
+    display: flex;
+}
+ul,li{
+    list-style: none;
+}
+.card__con{
+    margin-top: 50px;
+}
+.card__con{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.card__con{
+    display: grid;
+    justify-content: center;
+}
+.navbar{
+    background-color: burlywood;
+}
+.accordion{
+    margin-bottom: 65px;
+    padding: 0 20px;
+}
+.form__1{
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+.ul__list{
+    background-color:  burlywood;
+}
+.spinner-border{
+    margin-bottom: 35px;
+}
+.priroda{
+    font-family: monospace;
+    cursor: pointer;
+    color: black;
+    opacity: 0.4;
+}
+.priroda:active{
+    color: red;
+    opacity: 1;
+}

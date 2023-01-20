@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Botstrap</title>
+</head>
+<body>
+    <div class="header">
+      <nav class="navbar fixed-top">
+          <div class="container">
+           <div class="akh1">
+             <a class="navbar-brand" href="#">
+              <img class="n" src="img/scoot.svg" alt="N" width="70px">
+            </a>
+           </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  <a href="#">
+                    <img src="https://miro.medium.com/max/2400/1*4O6WiMYndBdjZtZ2VoEyUA.png" alt="img" width="70px">
+                  </a>
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BB%D0%BD%D0%B8%D1%8F#:~:text=%D0%9C%D0%BE%CC%81%D0%BB%D0%BD%D0%B8%D1%8F%20%E2%80%94%20%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B8%D1%81%D0%BA%D1%80%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%80%D0%B0%D0%B7%D1%80%D1%8F%D0%B4%20%D0%B2,%2C%20%D0%A1%D0%B0%D1%82%D1%83%D1%80%D0%BD%D0%B5%2C%20%D0%A3%D1%80%D0%B0%D0%BD%D0%B5%20%D0%B8%20%D0%B4%D1%80.">thunderstorm</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%B6%D0%B4%D1%8C">rain</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BD%D0%B5%D0%B3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      snow
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex mt-3" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </div>  
+
+ 
+ 
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Big_Nature_%28155420955%29.jpeg/1200px-Big_Nature_%28155420955%29.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Nature_%28177139207%29.jpeg/1200px-Nature_%28177139207%29.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.squarespace-cdn.com/content/v1/55914fd1e4b01fb0b851a814/1535802209601-B4NNR5RCK9CFXVJJQ247/1200px-The_sun_sets_on_the_Indus.jpg?format=1500w" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+   
+    <div class="container card__con">
+      <div class="card" style="width: 18rem;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Desert_Electric.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">thunderstorm</h5>
+          <p class="card-text">Lightning is an electric spark discharge in the atmosphere</p>
+          <a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BB%D0%BD%D0%B8%D1%8F#:~:text=%D0%9C%D0%BE%CC%81%D0%BB%D0%BD%D0%B8%D1%8F%20%E2%80%94%20%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B8%D1%81%D0%BA%D1%80%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%80%D0%B0%D0%B7%D1%80%D1%8F%D0%B4%20%D0%B2,%2C%20%D0%A1%D0%B0%D1%82%D1%83%D1%80%D0%BD%D0%B5%2C%20%D0%A3%D1%80%D0%B0%D0%BD%D0%B5%20%D0%B8%20%D0%B4%D1%80." class="btn btn-primary">click</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/0B9D/production/_107337920_gettyimages-528431782.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">rain</h5>
+          <p class="card-text">Rain — precipitation falling from clouds in the form of liquid droplets</p>
+          <a href="https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%B6%D0%B4%D1%8C" class="btn btn-primary">click</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://img.hotels24.ua/photos/ria/new_images/1123/112317/11231753/11231753m.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">snow</h5>
+          <p class="card-text">Precipitation in the form of white flakes representing ice crystals.</p>
+          <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BD%D0%B5%D0%B3" class="btn btn-primary">click</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+
+
+
+
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            thunderstorm
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Lightning — electric spark discharge</strong> Lightning has been an object of human interest since ancient times. Its dangerous manifestations have been known since ancient times. In paganism, lightning was considered the activity of the most powerful gods: Zeus in ancient Greek mythology, Thor in Scandinavian, Perun in Slavic. Being struck by lightning was considered God's punishment. Accordingly, certain rituals and rituals were performed to protect against lightning. From ancient and Slavic mythology, the idea of lightning as an instrument of divine activity migrated to Christianity. Despite the perception of lightning as a manifestation of higher forces, nevertheless, already in antiquity certain patterns were revealed in the defeat of objects by lightning. It was also described by Thales that lightning most often strikes tall free-standing objects. In the Middle Ages, lightning often caused fires in wooden cities, which gave rise to the rule that you can not build houses above the temple. Temples, located, as a rule, on elevated places, performed the role of lightning rods in these cases. It was also noticed that metallized (in those years — mostly gilded) domes are less likely to be struck by lightning.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            rain
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Rain — precipitation falling from clouds in the form of liquid droplets</strong>The formation of rain clouds occurs either from the mixing of two air masses close to saturation, but at different temperatures, or when moist air comes into contact with a colder surface of the earth, or in ascending air currents. In the first case, the humidity of the mixture always exceeds the humidity of the mixing masses, and the air may become saturated; the rains that come from this cause are weak, although with prolonged action a large amount of water may fall out. This kind of rain includes small, but prolonged autumn rains of European countries. From the second reason, rains often fall in coastal countries with sea winds in the cold part of the year. The most abundant precipitation falls during the ascent of the air, especially in warm countries, where the water vapor content in the air is especially significant: passing into the upper, more rarefied layers of the atmosphere, the air expands, and its temperature decreases, it approaches the degree of saturation and even passes it, and part of the water vapor condenses. This includes precipitation that falls when moist air rises along the mountain slopes, as well as precipitation in the areas of cyclone formation (barometric minima).
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            snow
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Snow is a form of precipitation consisting of small ice crystals.</strong>Snow forms when microscopic water droplets in clouds are attracted to dust particles and freeze. The ice crystals that appear at the same time, not exceeding 0.1 mm in diameter at first, fall down and grow as a result of condensation of moisture from the air on them. In this case, six-pointed crystal forms are formed. Due to the structure of water molecules, angles of only 60° and 120° are possible between the crystal rays. The main water crystal has the shape of a regular hexagon in the plane. On the tops of such a hexagon, new crystals are then deposited, new ones are placed on them, and so various shapes of snowflake stars are obtained.
+
+            At high heat, crystals repeatedly move vertically in the atmosphere, partially melting and crystallizing anew. Because of this, the regularity of crystals is disrupted and mixed forms are formed. The crystallization of all six rays occurs at the same time, under almost identical conditions, and therefore the shape features of the snowflake rays are just as identical.
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <form class="row g-3 needs-validation form__1" novalidate>
+      <div class="col-md-4">
+        <label for="validationCustom01" class="form-label">First name</label>
+        <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustom02" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustomUsername" class="form-label">Username</label>
+        <div class="input-group has-validation">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
+          <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+          <div class="invalid-feedback">
+            Please choose a username.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label for="validationCustom03" class="form-label">City</label>
+        <input type="text" class="form-control" id="validationCustom03" required>
+        <div class="invalid-feedback">
+          Please provide a valid city.
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label for="validationCustom04" class="form-label">State</label>
+        <select class="form-select" id="validationCustom04" required>
+          <option selected disabled value="">Choose...</option>
+          <option>...</option>
+        </select>
+        <div class="invalid-feedback">
+          Please select a valid state.
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label for="validationCustom05" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="validationCustom05" required>
+        <div class="invalid-feedback">
+          Please provide a valid zip.
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label" for="invalidCheck">
+            Agree to terms and conditions
+          </label>
+          <div class="invalid-feedback">
+            You must agree before submitting.
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Submit form</button>
+      </div>
+    </form>
+    <div class="d-flex justify-content-center">
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+
+<div class="container ul__list">
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link priroda active" aria-current="page" href="https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BB%D0%BD%D0%B8%D1%8F#:~:text=%D0%9C%D0%BE%CC%81%D0%BB%D0%BD%D0%B8%D1%8F%20%E2%80%94%20%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B8%D1%81%D0%BA%D1%80%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%80%D0%B0%D0%B7%D1%80%D1%8F%D0%B4%20%D0%B2,%2C%20%D0%A1%D0%B0%D1%82%D1%83%D1%80%D0%BD%D0%B5%2C%20%D0%A3%D1%80%D0%B0%D0%BD%D0%B5%20%D0%B8%20%D0%B4%D1%80.">thunderstorm</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link priroda" href="https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%B6%D0%B4%D1%8C">rain</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link priroda" href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BD%D0%B5%D0%B3">snow</a>
+    </li>
+  
+  </ul>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>
